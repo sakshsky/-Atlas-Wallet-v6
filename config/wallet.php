@@ -1,0 +1,2 @@
+<?php
+return ['rate_max_age_minutes' => (int) env('WALLET_RATE_MAX_AGE_MINUTES', 15), 'market_price_max_age_minutes' => (int) env('WALLET_MARKET_PRICE_MAX_AGE_MINUTES', 5), 'default_profit_percentage' => env('WALLET_DEFAULT_PROFIT_PERCENTAGE', '1.5000'), 'quote_ttl_seconds' => (int) env('WALLET_QUOTE_TTL_SECONDS', 30), 'enhanced_review_threshold' => env('WALLET_ENHANCED_REVIEW_THRESHOLD', '5000'), 'money_rail' => env('WALLET_MONEY_RAIL', 'manual'), 'money_rail_class' => App\Services\ManualMoneyRail::class];
